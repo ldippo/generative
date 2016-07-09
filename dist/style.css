@@ -1,0 +1,56 @@
+html, body {
+  background-color: #fffffc;
+}
+.main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 15px;
+}
+a, a:visited, a:active {
+  color: blue;
+}
+
+p, ul {
+  line-height: 1.8em;
+}
+
+h2 {
+  margin-top: 50px;
+  border-bottom: 1px solid #aaa;
+}
+.variation {
+  box-sizing: border-box;
+}
+
+.variation-left {
+  padding-right: 5px;
+}
+.variation-right {
+  padding-left: 5px;
+}
+
+.shot {
+  display: block;
+  width: 100%;
+  height: 200px;
+
+  background-size: cover;
+}
+.manual-shot {
+  background-image: url(images/manual.png)
+}
+.auto-shot {
+  background-image: url(images/auto.png)
+}
+.morrissey-shot {
+  background-image: url(images/morrissey.png)
+}
+.synth-shot {
+  background-image: url(images/synth.png)
+}
+.dave-shot {
+  background-image: url(images/dave.png)
+}
+.nativescript-shot {
+  background-image: url(images/nativescript.png)
+}
